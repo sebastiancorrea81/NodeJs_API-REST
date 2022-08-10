@@ -67,7 +67,7 @@
 					]
 				},
 				{
-					"name": "New Request",
+					"name": "Create",
 					"id": "93008ea8-7ccb-454f-890d-d8f9ad6288d9",
 					"protocolProfileBehavior": {
 						"disableBodyPruning": true
