@@ -193,7 +193,7 @@
 					]
 				},
 				{
-					"name": "update",
+					"name": "Update",
 					"id": "4ed84370-c00d-42c4-954e-010b423862cc",
 					"protocolProfileBehavior": {
 						"disableBodyPruning": true
