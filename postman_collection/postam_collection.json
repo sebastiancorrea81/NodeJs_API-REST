@@ -10,14 +10,14 @@
 			"item": [
 				{
 					"name": "Index",
-					"_postman_id": "52f55c4b-11b3-447b-95b3-6e0200291e09",
+					"id": "52f55c4b-11b3-447b-95b3-6e0200291e09",
 					"protocolProfileBehavior": {
 						"disableBodyPruning": true
 					},
 					"request": {
 						"method": "GET",
 						"header": [],
-						"url": null
+						"url": "{{base_url}}/api/v1/products"
 					},
 					"response": [
 						{
@@ -66,9 +66,386 @@
 							"body": "[\n    {\n        \"id\": \"ccfc71f1-987c-4bf0-a13b-8dcba1094e2b\",\n        \"name\": \"Generic Cotton Chair\",\n        \"price\": 519,\n        \"image\": \"https://loremflickr.com/640/480\"\n    },\n    {\n        \"id\": \"f442dabf-b575-4719-a673-68b7bd6e70e8\",\n        \"name\": \"Oriental Rubber Bacon\",\n        \"price\": 942,\n        \"image\": \"https://loremflickr.com/640/480\"\n    },\n    {\n        \"id\": \"6aa74610-c22e-4f7e-ae9f-a50b1140ec51\",\n        \"name\": \"Electronic Granite Table\",\n        \"price\": 423,\n        \"image\": \"https://loremflickr.com/640/480\"\n    },\n    {\n        \"id\": \"e00e6908-1488-41b9-9c7d-9da4286c95dc\",\n        \"name\": \"Gorgeous Metal Tuna\",\n        \"price\": 158,\n        \"image\": \"https://loremflickr.com/640/480\"\n    },\n    {\n        \"id\": \"8bb7cb52-2400-492e-bd18-53c9185d4b3f\",\n        \"name\": \"Recycled Plastic Cheese\",\n        \"price\": 633,\n        \"image\": \"https://loremflickr.com/640/480\"\n    },\n    {\n        \"id\": \"4c4732bc-5fd1-4002-8158-5b501fa5063b\",\n        \"name\": \"Practical Bronze Towels\",\n        \"price\": 922,\n        \"image\": \"https://loremflickr.com/640/480\"\n    },\n    {\n        \"id\": \"d570f8fa-7fd0-406a-b772-9a5828a6b5f9\",\n        \"name\": \"Generic Concrete Pizza\",\n        \"price\": 786,\n        \"image\": \"https://loremflickr.com/640/480\"\n    },\n    {\n        \"id\": \"5abba0d7-6f19-4bc8-af12-dbbd2bc6d507\",\n        \"name\": \"Recycled Steel Gloves\",\n        \"price\": 240,\n        \"image\": \"https://loremflickr.com/640/480\"\n    },\n    {\n        \"id\": \"7e7d56b4-ff7a-4707-84ba-272394e500be\",\n        \"name\": \"Handmade Fresh Cheese\",\n        \"price\": 922,\n        \"image\": \"https://loremflickr.com/640/480\"\n    },\n    {\n        \"id\": \"90241ba4-5324-4843-9aa7-83cab6ae095d\",\n        \"name\": \"Unbranded Wooden Table\",\n        \"price\": 907,\n        \"image\": \"https://loremflickr.com/640/480\"\n    },\n    {\n        \"id\": \"2ceea5e1-2897-40d9-a9b2-365cf31b5006\",\n        \"name\": \"Unbranded Fresh Bike\",\n        \"price\": 488,\n        \"image\": \"https://loremflickr.com/640/480\"\n    },\n    {\n        \"id\": \"9f4691e7-89f0-4461-8cd3-104b93a454ee\",\n        \"name\": \"Practical Concrete Pizza\",\n        \"price\": 678,\n        \"image\": \"https://loremflickr.com/640/480\"\n    },\n    {\n        \"id\": \"31d8f5dc-c950-4b3c-a4a2-d4314bfd3085\",\n        \"name\": \"Oriental Frozen Keyboard\",\n        \"price\": 447,\n        \"image\": \"https://loremflickr.com/640/480\"\n    },\n    {\n        \"id\": \"136a659e-b2f1-4121-824b-105a56184c01\",\n        \"name\": \"Bespoke Plastic Tuna\",\n        \"price\": 248,\n        \"image\": \"https://loremflickr.com/640/480\"\n    },\n    {\n        \"id\": \"7465905e-3175-4fe4-bc29-633d66ecaacf\",\n        \"name\": \"Rustic Soft Hat\",\n        \"price\": 69,\n        \"image\": \"https://loremflickr.com/640/480\"\n    },\n    {\n        \"id\": \"7ee30324-225a-4452-9e4a-1e077d140d81\",\n        \"name\": \"Recycled Steel Gloves\",\n        \"price\": 633,\n        \"image\": \"https://loremflickr.com/640/480\"\n    },\n    {\n        \"id\": \"2ae35346-e304-4405-9ca8-7ae3ba84e583\",\n        \"name\": \"Oriental Metal Towels\",\n        \"price\": 974,\n        \"image\": \"https://loremflickr.com/640/480\"\n    },\n    {\n        \"id\": \"f344ce32-5c42-44be-9c74-04648b7abfbc\",\n        \"name\": \"Ergonomic Bronze Shirt\",\n        \"price\": 37,\n        \"image\": \"https://loremflickr.com/640/480\"\n    },\n    {\n        \"id\": \"20b90016-fd59-4661-a163-38762b91e74a\",\n        \"name\": \"Oriental Cotton Shoes\",\n        \"price\": 132,\n        \"image\": \"https://loremflickr.com/640/480\"\n    },\n    {\n        \"id\": \"9a8f3405-33e1-4553-8911-d3e5a68a57fe\",\n        \"name\": \"Recycled Wooden Bike\",\n        \"price\": 963,\n        \"image\": \"https://loremflickr.com/640/480\"\n    }\n]"
 						}
 					]
+				},
+				{
+					"name": "Create",
+					"id": "93008ea8-7ccb-454f-890d-d8f9ad6288d9",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"name\": \"product_01\",\n    \"price\": 123456,\n    \"image\": \"https://loremflickr.com/640/480\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{base_url}}/api/v1/products",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"api",
+								"v1",
+								"products"
+							],
+							"query": [
+								{
+									"key": "name",
+									"value": "product_01",
+									"type": "text",
+									"disabled": true
+								},
+								{
+									"key": "price",
+									"value": "123",
+									"type": "text",
+									"disabled": true
+								},
+								{
+									"key": "image",
+									"value": "https://loremflickr.com/640/480",
+									"type": "text",
+									"disabled": true
+								}
+							]
+						}
+					},
+					"response": [
+						{
+							"id": "4959a638-d0b9-4e29-85da-9ed0b9ab7ea7",
+							"name": "Create",
+							"originalRequest": {
+								"method": "POST",
+								"header": [],
+								"url": {
+									"raw": "{{base_url}}/api/v1/products?name=product_01&price=123&image=https://loremflickr.com/640/480",
+									"host": [
+										"{{base_url}}"
+									],
+									"path": [
+										"api",
+										"v1",
+										"products"
+									],
+									"query": [
+										{
+											"key": "name",
+											"value": "product_01",
+											"type": "text"
+										},
+										{
+											"key": "price",
+											"value": "123",
+											"type": "text"
+										},
+										{
+											"key": "image",
+											"value": "https://loremflickr.com/640/480",
+											"type": "text"
+										}
+									]
+								}
+							},
+							"status": "Created",
+							"code": 201,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "X-Powered-By",
+									"value": "Express"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json; charset=utf-8"
+								},
+								{
+									"key": "Content-Length",
+									"value": "31"
+								},
+								{
+									"key": "ETag",
+									"value": "W/\"1f-q9xyyQGBozTpcGUekRTDmVd61Ec\""
+								},
+								{
+									"key": "Date",
+									"value": "Wed, 10 Aug 2022 19:20:47 GMT"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								},
+								{
+									"key": "Keep-Alive",
+									"value": "timeout=5"
+								}
+							],
+							"cookie": [],
+							"responseTime": null,
+							"body": "{\n    \"message\": \"created\",\n    \"data\": {}\n}"
+						}
+					]
+				},
+				{
+					"name": "Update",
+					"id": "4ed84370-c00d-42c4-954e-010b423862cc",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "PATCH",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"price\": \"change money\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{base_url}}/api/v1/products/2cc38f30-b868-4617-a3a8-fd097c955c7d",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"api",
+								"v1",
+								"products",
+								"2cc38f30-b868-4617-a3a8-fd097c955c7d"
+							],
+							"query": [
+								{
+									"key": "name",
+									"value": "product_01",
+									"type": "text",
+									"disabled": true
+								},
+								{
+									"key": "price",
+									"value": "123",
+									"type": "text",
+									"disabled": true
+								},
+								{
+									"key": "image",
+									"value": "https://loremflickr.com/640/480",
+									"type": "text",
+									"disabled": true
+								}
+							]
+						}
+					},
+					"response": [
+						{
+							"id": "b03d82d7-3f8d-4eb8-9adf-345d92948190",
+							"name": "Create",
+							"originalRequest": {
+								"method": "POST",
+								"header": [],
+								"url": {
+									"raw": "{{base_url}}/api/v1/products?name=product_01&price=123&image=https://loremflickr.com/640/480",
+									"host": [
+										"{{base_url}}"
+									],
+									"path": [
+										"api",
+										"v1",
+										"products"
+									],
+									"query": [
+										{
+											"key": "name",
+											"value": "product_01",
+											"type": "text"
+										},
+										{
+											"key": "price",
+											"value": "123",
+											"type": "text"
+										},
+										{
+											"key": "image",
+											"value": "https://loremflickr.com/640/480",
+											"type": "text"
+										}
+									]
+								}
+							},
+							"status": "Created",
+							"code": 201,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "X-Powered-By",
+									"value": "Express"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json; charset=utf-8"
+								},
+								{
+									"key": "Content-Length",
+									"value": "31"
+								},
+								{
+									"key": "ETag",
+									"value": "W/\"1f-q9xyyQGBozTpcGUekRTDmVd61Ec\""
+								},
+								{
+									"key": "Date",
+									"value": "Wed, 10 Aug 2022 19:20:47 GMT"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								},
+								{
+									"key": "Keep-Alive",
+									"value": "timeout=5"
+								}
+							],
+							"cookie": [],
+							"responseTime": null,
+							"body": "{\n    \"message\": \"created\",\n    \"data\": {}\n}"
+						}
+					]
+				},
+				{
+					"name": "Show",
+					"id": "ff30f7b0-1ad3-43f1-bfc3-a3711773483b",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"price\": \"change money\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{base_url}}/api/v1/products/2cc38f30-b868-4617-a3a8-fd097c955c7d",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"api",
+								"v1",
+								"products",
+								"2cc38f30-b868-4617-a3a8-fd097c955c7d"
+							],
+							"query": [
+								{
+									"key": "name",
+									"value": "product_01",
+									"type": "text",
+									"disabled": true
+								},
+								{
+									"key": "price",
+									"value": "123",
+									"type": "text",
+									"disabled": true
+								},
+								{
+									"key": "image",
+									"value": "https://loremflickr.com/640/480",
+									"type": "text",
+									"disabled": true
+								}
+							]
+						}
+					},
+					"response": [
+						{
+							"id": "0f20191f-724b-4ef0-8d36-3eaad7f587c9",
+							"name": "Create",
+							"originalRequest": {
+								"method": "POST",
+								"header": [],
+								"url": {
+									"raw": "{{base_url}}/api/v1/products?name=product_01&price=123&image=https://loremflickr.com/640/480",
+									"host": [
+										"{{base_url}}"
+									],
+									"path": [
+										"api",
+										"v1",
+										"products"
+									],
+									"query": [
+										{
+											"key": "name",
+											"value": "product_01",
+											"type": "text"
+										},
+										{
+											"key": "price",
+											"value": "123",
+											"type": "text"
+										},
+										{
+											"key": "image",
+											"value": "https://loremflickr.com/640/480",
+											"type": "text"
+										}
+									]
+								}
+							},
+							"status": "Created",
+							"code": 201,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "X-Powered-By",
+									"value": "Express"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json; charset=utf-8"
+								},
+								{
+									"key": "Content-Length",
+									"value": "31"
+								},
+								{
+									"key": "ETag",
+									"value": "W/\"1f-q9xyyQGBozTpcGUekRTDmVd61Ec\""
+								},
+								{
+									"key": "Date",
+									"value": "Wed, 10 Aug 2022 19:20:47 GMT"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								},
+								{
+									"key": "Keep-Alive",
+									"value": "timeout=5"
+								}
+							],
+							"cookie": [],
+							"responseTime": null,
+							"body": "{\n    \"message\": \"created\",\n    \"data\": {}\n}"
+						}
+					]
 				}
 			],
-			"_postman_id": "bd3a7f9e-6310-424d-b23a-0d3a47bd03df"
+			"id": "bd3a7f9e-6310-424d-b23a-0d3a47bd03df"
 		}
 	]
 }
