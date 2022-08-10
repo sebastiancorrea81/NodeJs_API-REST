@@ -16,7 +16,8 @@
 					},
 					"request": {
 						"method": "GET",
-						"header": []
+						"header": [],
+						"url": "{{base_url}}/api/v1/products"
 					},
 					"response": [
 						{
