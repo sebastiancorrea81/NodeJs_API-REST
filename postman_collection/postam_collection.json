@@ -337,7 +337,7 @@
 							}
 						},
 						"url": {
-							"raw": "{{base_url}}/api/v1/products/0570797e-a48c-46cb-9bbf-4a532b12c99c",
+							"raw": "{{base_url}}/api/v1/products/2cc38f30-b868-4617-a3a8-fd097c955c7d",
 							"host": [
 								"{{base_url}}"
 							],
@@ -345,7 +345,7 @@
 								"api",
 								"v1",
 								"products",
-								"0570797e-a48c-46cb-9bbf-4a532b12c99c"
+								"2cc38f30-b868-4617-a3a8-fd097c955c7d"
 							],
 							"query": [
 								{
