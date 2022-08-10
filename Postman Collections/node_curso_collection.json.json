@@ -1,0 +1,35 @@
+{
+	"info": {
+		"_postman_id": "2d50cb0c-8969-4200-af73-9ec19166e46b",
+		"name": "Curso_Node",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "index",
+			"id": "1416fcbb-5bd6-40d8-89e1-0b6bfa1462f5",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": "localhost:3000/api/v1/products"
+			},
+			"response": []
+		},
+		{
+			"name": "Create",
+			"id": "fecd89a5-b44a-4a13-98fd-e4dfabc57dd7",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": "localhost:3000/api/v1/products"
+			},
+			"response": []
+		}
+	]
+}
