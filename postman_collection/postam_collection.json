@@ -73,8 +73,48 @@
 						"disableBodyPruning": true
 					},
 					"request": {
-						"method": "GET",
-						"header": []
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"name\": \"product_01\",\n    \"price\": 123456,\n    \"image\": \"https://loremflickr.com/640/480\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{base_url}}/api/v1/products",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"api",
+								"v1",
+								"products"
+							],
+							"query": [
+								{
+									"key": "name",
+									"value": "product_01",
+									"type": "text",
+									"disabled": true
+								},
+								{
+									"key": "price",
+									"value": "123",
+									"type": "text",
+									"disabled": true
+								},
+								{
+									"key": "image",
+									"value": "https://loremflickr.com/640/480",
+									"type": "text",
+									"disabled": true
+								}
+							]
+						}
 					},
 					"response": [
 						{
