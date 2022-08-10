@@ -377,7 +377,7 @@
 								"method": "POST",
 								"header": [],
 								"url": {
-									"raw": "{{base_url}}/api/v1/products?name=product_01&price=123&image=https://loremflickr.com/640/480",
+									"raw": "{{base_url}}/api/v1/products",
 									"host": [
 										"{{base_url}}"
 									],
@@ -390,17 +390,17 @@
 										{
 											"key": "name",
 											"value": "product_01",
-											"type": "text"
+											"disabled": true
 										},
 										{
 											"key": "price",
 											"value": "123",
-											"type": "text"
+											"disabled": true
 										},
 										{
 											"key": "image",
 											"value": "https://loremflickr.com/640/480",
-											"type": "text"
+											"disabled": true
 										}
 									]
 								}
