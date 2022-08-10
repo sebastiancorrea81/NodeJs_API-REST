@@ -199,11 +199,11 @@
 						"disableBodyPruning": true
 					},
 					"request": {
-						"method": "POST",
+						"method": "PATCH",
 						"header": [],
 						"body": {
 							"mode": "raw",
-							"raw": "{\n    \"name\": \"product_01\",\n    \"price\": 123456,\n    \"image\": \"https://loremflickr.com/640/480\"\n}",
+							"raw": "{\n    \"price\": \"change money\"\n}",
 							"options": {
 								"raw": {
 									"language": "json"
@@ -211,14 +211,15 @@
 							}
 						},
 						"url": {
-							"raw": "{{base_url}}/api/v1/products",
+							"raw": "{{base_url}}/api/v1/products/0570797e-a48c-46cb-9bbf-4a532b12c99c",
 							"host": [
 								"{{base_url}}"
 							],
 							"path": [
 								"api",
 								"v1",
-								"products"
+								"products",
+								"0570797e-a48c-46cb-9bbf-4a532b12c99c"
 							],
 							"query": [
 								{
